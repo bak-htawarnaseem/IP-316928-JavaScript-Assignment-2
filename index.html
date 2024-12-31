@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>welcome to my personalized landing page</h1>
+    </header>
+    <main>
+        <button onclick="welcomemessage()">Welcome Message</button>
+        <button onclick="greeting()">Personalized Greeting</button>
+        <button onclick="userinformation()">About Me</button>
+    </main>
+    <footer>
+      <p>@ 2024 all #copyright practice.com </p>
+    </footer>
+  <script>
+    function welcomemessage()
+    {alert("Welcome to our JavaScript 2nd Assignment Layout")};
+    
+    function greeting()
+    {var firstname = prompt("enter your firstname:" );
+    var lastname = prompt( " enter your lastname:" );
+    alert("Hello," + firstname + " " +  lastname + " ! ");}
+
+    function userinformation()
+    {var first = prompt("enter your firstname:" );
+    var last = prompt( " enter your lastname:" );
+    var fav = prompt("enter your favourite hobby:");
+    alert("Nice ! Your name is " + first + " "  + last + " and " + fav + " " +  "is your favourite hobby. "  );}
+  </script>
+</body>
+</html>
