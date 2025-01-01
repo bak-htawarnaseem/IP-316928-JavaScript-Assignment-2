@@ -54,4 +54,7 @@
 /* responsivness */
   @media(max-width: 600px) 
        { button
-        {width: 80%;}}
+        {width: 60%;}}
+        { main
+          {margin: 10px auto;}
+        }
